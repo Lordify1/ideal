@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "admin",
+			"path": "."
+		},
+		{
+			"name": "script",
+			"path": "../../data_xml/ajax/script"
+		}
+	]
+}

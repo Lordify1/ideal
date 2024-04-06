@@ -1,0 +1,142 @@
+
+CREATE TABLE  state  (
+   state_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   state_name  VARCHAR(255) NULL  
+
+);
+
+CREATE TABLE   c_industry  (
+   industry_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   industry_name  VARCHAR(255) NULL  
+
+);
+
+CREATE TABLE   business_category  (
+   b_category_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   b_category_name  VARCHAR(255) NULL 
+
+);
+
+
+CREATE TABLE   businesses  (
+   business_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   bsiness_name  VARCHAR(200) NOT NULL  ,
+   business_email  VARCHAR(200) NOT NULL  ,
+   business_logo  VARCHAR(200) NOT NULL  ,
+   b_category_id  INT(20) NOT NULL  ,
+   business_address  VARCHAR(255) NOT NULL  ,
+   business_regdate  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP()  ,
+   business_website  VARCHAR(255) NOT NULL  ,
+   business_phone_no  INT NULL  ,
+   state_id  INT NULL  ,
+   contact_person_name  VARCHAR(255) NULL  ,
+   category_preference  VARCHAR(255) NULL  ,
+   industry_id  INT NULL
+);
+
+CREATE TABLE   experience  (
+   experience_id  INT(20) NOT NULL AUTO_INCREMENT PRIMARY  ,
+   experience_name  VARCHAR(200) NULL DEFAULT NULL  
+
+);
+
+CREATE TABLE   category  (
+   category_id  INT(20) NOT NULL  ,
+   category_name  VARCHAR(200) NOT NULL  
+);
+
+CREATE TABLE   project_type  (
+   project_type_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   project_type_name  VARCHAR(255) NULL 
+);
+
+
+CREATE TABLE   availability  (
+   availability_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   availability_name  VARCHAR(255) NULL 
+);
+
+
+CREATE TABLE   marketers  (
+   marketer_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   marketer_fname  VARCHAR(200) NULL  ,
+   marketer_lname  VARCHAR(200) NULL  ,
+   marketer_email  VARCHAR(200) NULL  ,
+   marketer_password  VARCHAR(255) NULL  ,
+   marketer_dob  DATE NULL  ,
+   marketer_regdate  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP()  ,
+   experience_id  INT(20) NOT NULL  ,
+   marketer_bio  TEXT NULL  ,
+   marketer_picture  VARCHAR(255) NULL  ,
+   state_id  INT NULL  ,
+   category_id  INT NULL  ,
+   project_type_id  INT NULL  ,
+   availability_id  INT NULL
+);
+
+
+CREATE TABLE   remarks  (
+   remark_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   remark  TEXT NULL  ,
+   remark_rating  INT NULL  ,
+   marketer_id  INT NULL  ,
+   project_id  INT NULL  ,
+   business_id  INT NULL 
+);
+
+
+CREATE TABLE   status  (
+   status_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   status_name  VARCHAR(100) NULL  
+);
+
+CREATE TABLE   project  (
+   project_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   project_name  VARCHAR(200) NULL DEFAULT NULL  ,
+   business_id  INT NOT NULL  ,
+   project_description  TEXT NULL  ,
+   state_id  INT NULL  ,
+   project_creation_date  TIMESTAMP NULL DEFAULT current_timestamp()  ,
+   expiry_date  DATE NULL  ,
+   experience_id  INT NULL  ,
+   offer_amount_range  FLOAT NULL  ,
+   status_id  INT NULL  ,
+   project_image  VARCHAR(255) NULL  ,
+   project_goals/objectives  TEXT NULL  ,
+   project_skills_preference  VARCHAR(255) NULL  ,
+   communication  VARCHAR(255) NULL  ,
+   previous_efforts  VARCHAR(255) NULL  ,
+   additional_comments  VARCHAR(500) NULL  ,
+
+);
+
+CREATE TABLE   payment  (
+   payment_id  INT(20) NOT NULL AUTO_INCREMENT PRIMARY  ,
+   payment_amt  INT(20) NULL  ,
+   payment_date  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP()  ,
+   business_id  INT(20) NOT NULL  ,
+   marketer_id  INT(20) NOT NULL  ,
+   payment_status  VARCHAR(45) NULL  ,
+   project_id  INT NULL  
+
+);
+
+;
+CREATE TABLE   application  (
+   application_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   marketer_id  INT NULL  ,
+   project_id  INT NULL  ,
+   application_date  TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP()  ,
+   application_status  VARCHAR(45) NULL  ,
+   application_amount  FLOAT NULL 
+
+);
+
+CREATE TABLE   admin  (
+   admin_id  INT NOT NULL AUTO_INCREMENT PRIMARY  ,
+   admin_username  VARCHAR(255) NULL  ,
+   admin_lastlogin  TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP()  ,
+   admin_password  VARCHAR(255) NULL  
+
+
+;)

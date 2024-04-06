@@ -1,0 +1,26 @@
+login
+create blog post
+logout
+block user
+allow user
+authenticate payment
+selects projects to be displayed on the main page
+select marketers to be displayed on the dashboard
+create marketing campaigns and promotions
+handle issues
+monitor all business and marketer profiles
+
+
+
+ADMIN MENU
+Dashboard
+Users
+Categories
+Registered Marketers
+Registered Businesses
+Blog
+Category
+Add Industry
+Payment Actions
+Customer Care/Issue Resolution
+FAQ

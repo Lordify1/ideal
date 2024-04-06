@@ -1,0 +1,140 @@
+
+TO DO LIST
+
+confirm the database look
+
+Add blog section to the main page
+everywhere the word ideal or the logo ideal is it should be clickable to go to the about ideal page
+work on the modal. give it a bg-color that is same with the b meet marketers thing. the images should be cards and they should be clickable. onclick of the images either m or b it should take them to the page they chose
+complete all forms. add validation, sanitization, and add recording to database to it also.
+on marketer complete registration he should be taken to the find projects page and then there should be a pop up asuggesting they complete their profile and then one showing them the blog after.
+add the up arrow to all the pages
+add buttons to view more projects and also buttons to view more marketers;
+add a how it works floating question mark to the homepage only
+and then add a button that points up to all the page, a floating button
+develop the how it works place
+try to add faqs also ; inorder to populate the page
+ add This section may
+include filters, search options, and
+categories to marketer landing page
+
+
+
+
+
+
+
+TO DO LIST
+
+
+
+2. work on modal
+
+
+marketer should be able to
+once i land on the website i should see the home page and a call to action. once i clicked the register i should get the option to create an account either as a marketer or as a business. once i click the marketer option is hould see the marketer form pop up.
+after registering i would be taken to a place of projects. On this page i would see an option to search for projects, see active projects, see registered businesses,there would be a pop up, not disturbing though but this pop up would advice me to set my profile adn complete it because of businesses. 
+once the marketer clicks on search for projects all the displayed projects below would dissapear
+
+3. using session and cookies change the navbar a user will see after registering so that it would be personalized
+
+
+
+
+
+1. finish the marketer landing after registration, same for business
+
+dont forget to add fonts for all text
+
+2. build admin page
+
+
+    
+
+    selectedprojectstext
+
+    selectedprojectsimg
+
+    projectscontroller 
+    
+    marketersonly
+
+    name, level, projects handled, active projects
+
+
+test how the database records things it gets from arrays of checkbox if you store it with varchar
+
+
+comp name
+company website 
+skills needed
+
+
+
+reedit the footer for all the webpages
+ 
+
+
+
+
+do isset if there is a field that can be empty or not
+always let you payment come along with instructions
+
+
+NPM - node package manager
+
+
+
+all your asset files should be in public
+the main pages would be in views that is inside resources
+on env, app env is local when operating local, but when you want to upload change to it
+also change app debug to false if you want to upload it to the server so that ur errors are not displayed to everyone
+
+
+
+one marketer shouldnt be able to send applications for the same project more than once
+
+
+
+all dashboard places should only have the hardcoded go back link
+
+
+always generate random numbers on forms for mor security
+
+
+still trying to the if no projects shows no projects available
+
+
+project view should be sorted by industry,size,location
+
+
+rename all sessions
+
+also remember to add ico
+
+
+
+whogohost to get domain name
+whois to get a domain name
+
+
+
+
+
+
+Very IMPORTANT 
+
+When hosoting live please do well to change the location from localhost to something else
+
+
+
+
+
+undefined is not an error
+not-defined is an error
+
+this is based on hoisting 
+
+
+
+REmane all the sessions

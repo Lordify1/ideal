@@ -1,0 +1,1066 @@
+/*IDEAL CLASSES*/
+.ideal-color{
+    color: #0066cc;;
+}
+
+/* 
+---------------------------------------------
+Pre-loader Style
+--------------------------------------------- 
+*/
+
+
+.js-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.99);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+  }
+  
+  .js-preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  @-webkit-keyframes dot {
+    50% {
+        -webkit-transform: translateX(96px);
+        transform: translateX(96px);
+    }
+  }
+  
+  @keyframes dot {
+    50% {
+        -webkit-transform: translateX(96px);
+        transform: translateX(96px);
+    }
+  }
+  
+  @-webkit-keyframes dots {
+    50% {
+        -webkit-transform: translateX(-31px);
+        transform: translateX(-31px);
+    }
+  }
+  
+  @keyframes dots {
+    50% {
+        -webkit-transform: translateX(-31px);
+        transform: translateX(-31px);
+    }
+  }
+  
+  .preloader-inner {
+    position: relative;
+    width: 142px;
+    height: 40px;
+    background: transparent;
+  }
+  
+  .preloader-inner .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    background: green;
+    border-radius: 50%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation: dot 2.8s infinite;
+    animation: dot 2.8s infinite;
+  }
+  
+  .preloader-inner .dots {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    -webkit-animation: dots 2.8s infinite;
+    animation: dots 2.8s infinite;
+  }
+  
+  .preloader-inner .dots span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    background: green;
+    border-radius: 50%;
+  }
+
+table{
+    font-size:0.8rem;
+}
+
+.ideal-bg{
+    background-color: #0066cc !important;
+    color: white !important;
+}
+
+.ideal-bg:hover{
+    background-color: #074684 !important;
+    color: white !important;
+}
+
+.ideal-border{
+    border: 1px solid white !important;
+}
+
+/* .ideal-marketers{
+    
+} */
+
+.ideal-shadow{
+    box-shadow: 0px 0px 10px black;
+}
+
+::-webkit-scrollbar{
+    width:9px;
+    background: black;
+    }
+
+::-webkit-scrollbar-thumb{
+    background: #0066cc;
+    border-radius: 10px;
+}
+
+.rowarrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.colarrange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*IDEAL CLASSES*/
+
+/*mainody*/
+
+
+
+
+#mainbody{
+    background-image: linear-gradient(to bottom, rgba(255,255,255, 0.2), rgba(255,255,255, 0.2)),url("../images/pexels-photo-3745234.jpeg"); 
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;
+
+}
+
+#businessdiv{
+    background-color: rgba(0,0,0, 0.5);
+}
+
+/*mainbody*/
+
+
+
+td, thead, tbody, tr{
+    padding: 10px;
+}
+
+
+
+/* Main ideal text */
+
+.iDEAL{
+    font-size: 0.2rem;
+}
+
+
+
+/* Main ideal text */
+
+
+
+
+
+
+
+/*modal edit*/
+
+.signupmodalbody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1% !important;
+    padding: 1% !important;
+}
+
+.modal-dialog, .modal-header, .modal-body, .modal-content{
+    background-color: #464623;
+    border:0px !important;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#pro{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+#proimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+
+
+.signupmodalbody col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.popupimgchoose1{
+    border-radius: 10px !important;
+    padding: 2% !important;
+}
+
+.signupmodalbody button{
+    background-color: #00ff00 !important;
+    align-items: right;
+}
+
+.popupimgchoose2{
+    border-radius: 10px !important;
+    padding: 2% !important;
+}
+
+/* .popupimgchoose2 button{
+
+} */
+
+
+/*modal edit*/
+
+a:hover
+{
+    border-radius: 10px;
+}
+
+/* hero section */
+
+.herocontainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/bgimg.jpg"); 
+    height: 100vh !important;
+    border-radius : 1%;
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;
+
+}
+
+.herotexts h1{
+    font-size: 5em;
+    color: white;
+    font-weight: bolder;
+    outline-color: #00ff00  !important;
+}
+
+.herolinks1, .herolinks2{
+    text-decoration: none;
+    background-color: #00ff00 !important;
+    font-weight: bolder;
+    
+}
+
+#ideallink{
+    text-decoration: none;
+}
+
+/* hero section */
+
+
+
+
+/*whyideal */
+.whyidealmain{
+    background-color: rgba(0,0,0, 0.4);
+}
+
+
+
+.whyidealtext:hover{
+    color: #0066cc!important;
+}
+
+
+
+.whyideal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 20px;
+}
+
+/*whyideal */
+
+
+
+/*projects*/
+
+
+
+
+/*projects*/
+
+
+
+
+
+/* testimonials */
+
+
+
+
+
+
+.testimonialarrange{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testtimonialmaintext{
+    text-shadow:1px 2px 4px black;
+}
+
+
+.testimonialimg{
+    position: relative;
+}
+
+.testimonialoverlaytext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+
+
+/* testimonials */
+
+
+
+
+/*Blog*/
+
+
+
+iframe{
+    height: 50vh;
+    width: 100%;
+}
+
+
+
+
+/*Blog*/
+
+
+
+/*views*/
+
+#business_view_bg{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/business.jpg"); 
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;
+
+}
+
+
+#marketer_view_bg{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)),url("../images/marketerformbg.png"); 
+    box-shadow: 1px 1px 5px black;
+}
+
+/*views*/
+
+
+/*all_marketers start*/
+
+.all_marketers_bg{
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/marketerformbg.png"); 
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;
+    
+}
+
+/*all_marketers end*/
+
+
+/*all_business start*/
+
+.all_business_bg{
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/business.jpg"); 
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;
+
+}
+
+/*all_business end*/
+
+
+/*all_projects start*/
+
+.all_projects_bg{
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/projects.jpg"); 
+    box-shadow: 1px 1px 5px black;
+    background-attachment: fixed;
+
+}
+
+/*all_projects end*/
+
+
+/*  all_testimonials_bg start */
+
+
+.all_testimonials_bg{
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/bgimg.jpg"); 
+    box-shadow: 1px 1px 5px black;
+}
+
+
+/*  all_testimonials_bg end */
+
+/*form*/
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.formmain{
+    background-color: #666633c2;
+}
+
+.mainformedit{
+    box-shadow: 1px 1px 5px black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.1), rgba(0,0,0, 0.3)),url("../images/newsletter.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+
+/*form*/
+
+
+.bro{
+color : #0066cc
+#142731
+
+#6666669c
+#666633
+
+green
+#00ff00 
+#00ff33 
+}
+
+
+
+.actiontexts{
+    font-size: 10px;
+}
+
+
+/* THE MARKETERS REGISTER HTML STYLING STARTS HERE */
+
+
+#marketingform{
+    background: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5%;
+    border-radius:20px ;
+    box-shadow: 1px 1px 5px #666633;
+}
+
+textarea::-webkit-resizer{
+    display: none;
+    resize: none;
+}
+
+
+
+#marketingform input{
+    background-color: white;
+    color: black;
+    border: 1px solid #666633 !important;
+}
+
+/* .form-check-input{
+    background-color: rgb(51,96,137) !important;
+} */
+
+#marketingform input:hover{
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+.marketerformrow{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* THE MARKETERS REGISTER HTML STYLING ENDS HERE */
+
+
+
+
+
+/* THE BUSINESS REGISTER HTML STYLING STARTS HERE */
+
+
+#businessformcontainer{
+    background-image: url("../images/business.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#businessform{
+    background: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(0, 0, 0, 0.7)); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5%;
+    border-radius:20px ;
+    box-shadow: 1px 1px 5px #666633;
+}
+
+#businessform input{
+    background-color: white;
+    color: black;
+    border: 1px solid #142731 !important;
+    margin: 5px;
+}
+
+
+
+
+#businessform input:hover{
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+.businessformrow{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* THE BUSINESS REGISTER HTML STYLING ENDS HERE */
+
+
+
+
+
+/*PROFILE EDIT*/
+
+
+.dashboardnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0066cc;
+}
+
+.dashboardnav_pending{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboardnav section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashsections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.dashsections a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.dashsections a:hover{
+    color: black;
+    font-size: small;
+    text-shadow: 2px 2px 5px #00ff00;
+}
+
+.status{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    background-color: #0066cc;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+.status a{
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    font-size: 0.5em;
+}
+
+.status a:hover{
+    color: white;
+}
+
+
+
+#about_us_body{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255, 0.7)),url("../images/project_view.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+#profilebody{
+    background-image: linear-gradient(to bottom, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)),url("../images/marketer_profile_bg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*PROFILE EDIT*/
+
+
+
+
+
+
+/*BUSINESS PROJECT*/
+
+
+
+
+#businessprojects{
+    background-color: rgba(0,0,0,0.5); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5%;
+    border-radius:20px ;
+    box-shadow: 1px 1px 5px #666633;
+}
+
+
+#payment{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 10%;
+    border-radius:20px ;
+    box-shadow: 1px 1px 5px #666633;
+}
+
+
+#businessprojects input[type=text] input[type=password]{
+    border: 1px solid #142731 !important;
+    margin: 5px;
+}
+
+#businessprojects input[type=password]{
+    border: 1px solid #142731 !important;
+    margin: 5px;
+}
+
+label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* #businessprojects textarea{
+    background-color: black;
+    color: white;
+} */
+
+#businessprojects input:hover{
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+
+.businessprojectsrow{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.business_project_bg{
+    
+    background-image: url("../images/projects.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*BUSINESS PROJECT*/
+
+
+
+
+
+
+
+
+
+/*MARKETERS PROJECT*/
+
+
+
+#marketerprojects{
+    background-color: rgba(0,0,0,0.6);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5%;
+    border-radius:20px ;
+    box-shadow: 1px 1px 5px #666633;
+}
+
+#marketerprojects textarea{
+    background-color: white;
+    color: black;
+    border: 1px solid #666633 !important;
+    height: 100px;
+    margin-bottom: 2em;
+}
+
+
+#marketerprojects input:hover{
+    box-shadow: 1px 1px 5px white;
+}
+
+
+
+.marketerprojectsrow{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/projects.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*MARKETERS PROJECT*/
+
+
+
+
+/* BUSINESS PROFILE EDIT START */
+
+
+
+
+#bodiee{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(255,255,255, 0.7)),url("../images/profilebg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/* BUSINESS PROFILE EDIT END */
+
+
+
+
+/*  MARKETER VIEW  START */
+
+
+
+.mview_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+
+
+
+.coll{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left; 
+    z-index: 1;
+}
+
+.profilepic{
+    border-radius: 100%;
+    border: 3px solid black;
+    z-index: 1;
+    margin-top: -40px;
+}
+
+
+.namebar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sec{
+    background: rgba(0,0,0, 0.5);
+}
+
+
+
+/*  MARKETER VIEW  END */
+
+
+
+/*LOGIN*/
+
+
+
+/*LOGIN*/
+
+
+
+
+/* testimonials start  */
+
+
+
+.testimonial_pro_img{
+    border-radius: 100%;
+}
+
+
+
+
+/* testimonials start  */
+
+
+/* project view start */
+
+
+#project_view_bg{
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgba(0,0,0, 0.9)),url("../images/project_view.jpg"); 
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+/* project view end */
+
+
+.explainer_text{
+    display: none;
+}
+
+@media screen and (min-width:200px) and (max-width:1200px) {
+    .herotexts h1{
+        font-size:30px;
+        color: white;
+        font-weight: bolder; 
+
+        
+    }
+
+    #whyideallogo{
+        display: none;
+    }
+
+
+    .profilepic{
+        height: 100px;
+        width: 100px;
+    }
+
+    .projectscontroller{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .herocontainer{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(to bottom, rgba(0,0,0, 0.52), rgba(0,0,0, 0.52)),url("../images/bgimg.jpg"); 
+        height: 100vh !important;
+        border-radius : 1%;
+        box-shadow: 1px 1px 5px black;
+    }
+    
+
+    .marketerformrow{
+        padding:2%;
+    }
+
+    .marketername{
+        font-size: 15px;
+    }
+
+    .businessname{
+        font-size: 15px;
+    }
+
+    .availability{
+        font-size: 12px;
+    }
+
+    .others{
+        font-size: 10px;
+    }
+
+
+    .explainer_text{
+        display: contents;
+        color: rgba(0,0,0,1);
+    }
+
+    .dashsections a{
+        font-size: small;
+        padding: 10px;
+        margin: 30px;
+        
+    }
+}

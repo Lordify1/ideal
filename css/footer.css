@@ -1,0 +1,20 @@
+.footerh3{
+color: white;
+}
+
+.footerrow{
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
+.footerlinks{
+    text-decoration:none;
+    display: block;
+    color: #00ff00;
+}
+

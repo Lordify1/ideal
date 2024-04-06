@@ -1,0 +1,39 @@
+Marketers
+
+	marketer_id
+	marketer_name
+	marketer_email
+	marketer_dob
+	marketer_city
+	marketer_regdate
+	experience_id
+
+Business
+
+	business_id
+	bsiness_name
+	business_email
+	category_id
+	business_address
+	business_regdate
+
+
+Project
+	project_id
+	business_id
+	marketer_id
+
+Experience
+	
+	experience_id
+	experience_name
+
+Payment
+
+	payment_id
+	payment_amt
+	payment_date
+	business_id
+	marketer_id
+
+marketing_history
